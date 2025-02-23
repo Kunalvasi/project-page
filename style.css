@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", serif;
+}
+.main{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    position: relative;
+}
+.nav{
+    position: relative;
+}
+.nav img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+.link{
+    position: absolute;
+    left: 500px;
+    word-spacing: 30px;
+    top: 20px;
+}
+a{
+    text-decoration: none;
+    /* font-family: "Open Sans", serif; */
+    font-family: "Open Sans", serif;
+    color: black;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.button{
+    position: absolute;
+    left: 1200px;
+    top: 20px;
+}
+button{
+    font-family: "Open Sans", serif;
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    background-color: #007BFF;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.lefttext{
+    height: 50%;
+    width: 60%;
+    position: absolute;
+    left: 50px;
+}
+.lefttext h2{
+    font-size:50px;
+    /* text-decoration: underline;
+  text-decoration-thickness: 2px; */
+}
+.underline{
+    height: 50px;
+    width: 350px;
+    border: 1px solid black;
+    transform: rotateX(89deg);
+}
+.rightphoto{
+   position: absolute;
+   left: 700px;
+   top: 5px;
+   object-fit: cover;
+}
+.rightphoto img{
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+}
+.content{
+    position: absolute;
+    top: 200px;
+    /* display: flex;
+    justify-content: space-around; */
+    width: 50%;
+}
+.lowercontent{
+    position:absolute;
+    top: 700px;
+}
+.leftphoto{
+    left: 50px;
+    position:absolute;
+}
+.leftphoto img{
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+}
+.righttext{
+    left: 800px;
+    position: absolute;
+}
+.righttext p{
+    width: 500px;
+}
+.righttext h2{
+    font-size:50px;
+}
+.crossline{
+    height: 50px;
+    width: 1330px;
+    border: 1px solid black;
+    position: absolute;
+    top: 1200px;
+    transform: rotateX(89deg);
+    box-shadow: 10px 0 15px black;
+}
+.footer{
+    position: absolute;
+    left: 100px;
+    top: 1300px;
+}
+.footer h5{
+    color: gray;
+    text-decoration: underline;
+}
+.footer img{
+    height: 70px;
+    width: 70px;
+    /* position: absolute;
+    left: 30px;
+    top: 1300px; */
+}
+.footer p{
+    font-size: 12px;
+}
+.second{
+    top: 1300px;
+    left: 500px;
+    position: absolute;
+}
+.second h5{
+    color: gray;
+}
+.second p{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    font-size:12px ;
+}
+.secondlower {
+    position: absolute;
+    top: 1400px;
+    left: 500px;
+}
+.secondlower2{
+    position: absolute;
+    top: 55px;
+}
+.secondlower2 h5{
+    color: gray;
+}
+.secondlower2 p{
+    font-size: 12px;
+}
+.third{
+    position: absolute;
+    top: 1300px;
+    left: 900px;
+}
+.third h5{
+    color: gray;
+}
+.third p{
+    font-size: 12px;
+}
+.forth{
+    position: absolute;
+    top: 1300px;
+    left: 1200px;
+    display: flex;
+    gap: 20px;
+}
+.forth i{
+    transform: scale(2);
+}
